@@ -1,0 +1,518 @@
+
+
+.one {
+  width: 20px;
+  height: 20px;
+  background-color: red;
+  position:absolute;
+  animation-name: example;
+  animation-duration: 4s;
+  animation-iteration-count: infinite;
+  border-radius: 50%;
+  box-shadow: 0 3px 4px rgba(0,0,0,0.15);
+  text-align: center;
+}
+
+
+@keyframes example {
+  0%   {background-color:red;  top:0px;}
+  25%  {background-color:yellow;  top:00px;}
+  50%  {background-color:blue;  top:700px;}
+  75%  {background-color:green;  top:700px;}
+  100% {background-color:red; top:0px;}
+}
+.two {
+  width: 20px;
+  height: 20px;
+  background-color: red;
+  position: absolute;
+  animation-name: examples;
+  animation-duration: 5s;
+  animation-iteration-count: infinite;
+  border-radius: 50%;
+  box-shadow: 0 3px 4px rgba(0,0,0,0.15);
+  text-align: center;
+}
+
+
+@keyframes examples {
+  0%   {background-color:red; left:70px; top:00px;}
+  25%  {background-color:yellow; left:70px; top:00px;}
+  50%  {background-color:blue; left:70px; top:700px;}
+  75%  {background-color:green; left:70px; top:700px;}
+  100% {background-color:red; left:70px; top:0px;}
+}
+.three {
+  width: 20px;
+  height: 20px;
+  background-color: red;
+  position: absolute;
+  animation-name: exampless;
+  animation-duration: 6s;
+  animation-iteration-count: infinite;
+  border-radius: 50%;
+  text-align: center;
+  box-shadow: 0 3px 4px rgba(0,0,0,0.15);
+
+}
+
+
+@keyframes exampless {
+  0%   {background-color:red; left:140px; top:00px;}
+  25%  {background-color:yellow; left:140px; top:00px;}
+  50%  {background-color:blue; left:140px; top:700px;}
+  75%  {background-color:green; left:140px; top:700px;}
+  100% {background-color:red; left:140px; top:0px;}
+}
+.four {
+  width: 20px;
+  height: 20px;
+  background-color: red;
+  position: absolute;
+  animation-name: examplesss;
+  animation-duration: 7s;
+  animation-iteration-count: infinite;
+  border-radius: 50%;
+  box-shadow: 0 3px 4px rgba(0,0,0,0.15);
+  text-align: center;
+
+}
+
+
+@keyframes examplesss {
+  0%   {background-color:red; left:210px; top:00px;}
+  25%  {background-color:yellow; left:210px; top:00px;}
+  50%  {background-color:blue; left:210px; top:700px;}
+  75%  {background-color:green; left:210px; top:700px;}
+  100% {background-color:red; left:210px; top:0px;}
+}
+.five {
+  width: 20px;
+  height: 20px;
+  background-color: red;
+  position: absolute;
+  animation-name: five;
+  animation-duration: 4s;
+  animation-iteration-count: infinite;
+  border-radius: 50%;
+  box-shadow: 0 3px 4px rgba(0,0,0,0.15);
+  text-align: center;
+}
+
+
+@keyframes five {
+  0%   {background-color:red; left:280px; top:00px;}
+  25%  {background-color:yellow; left:280px; top:00px;}
+  50%  {background-color:blue; left:280px; top:700px;}
+  75%  {background-color:green; left:280px; top:700px;}
+  100% {background-color:red; left:280px; top:0px;}
+}
+.six {
+  width: 20px;
+  height: 20px;
+  background-color: red;
+  position: absolute;
+  animation-name: six;
+  animation-duration: 7s;
+  animation-iteration-count: infinite;
+  border-radius: 50%;
+  box-shadow: 0 3px 4px rgba(0,0,0,0.15);
+  text-align: center;
+}
+
+
+@keyframes six {
+  0%   {background-color:red; left:350px; top:00px;}
+  25%  {background-color:yellow; left:350px; top:00px;}
+  50%  {background-color:blue; left:350px; top:700px;}
+  75%  {background-color:green; left:350px; top:700px;}
+  100% {background-color:red; left:350px; top:0px;}
+}
+.seven {
+  width: 20px;
+  height: 20px;
+  background-color: red;
+  position: absolute;
+  animation-name: seven;
+  animation-duration: 5s;
+  animation-iteration-count: infinite;
+  border-radius: 50%;
+  box-shadow: 0 3px 4px rgba(0,0,0,0.15);
+  text-align: center;
+
+}
+
+
+@keyframes seven {
+  0%   {background-color:red; left:420px; top:00px;}
+  25%  {background-color:yellow; left:420px; top:00px;}
+  50%  {background-color:blue; left:420px; top:700px;}
+  75%  {background-color:green; left:420px; top:700px;}
+  100% {background-color:red; left:420px; top:0px;}
+}
+.eight {
+  width: 20px;
+  height: 20px;
+  background-color: red;
+  position: absolute;
+  animation-name: eight;
+  animation-duration: 6s;
+  animation-iteration-count: infinite;
+  border-radius: 50%;
+  box-shadow: 0 3px 4px rgba(0,0,0,0.15);
+  text-align: center;
+
+}
+
+
+@keyframes eight {
+  0%   {background-color:red; left:490px; top:00px;}
+  25%  {background-color:yellow; left:490px; top:00px;}
+  50%  {background-color:blue; left:490px; top:700px;}
+  75%  {background-color:green; left:490px; top:700px;}
+  100% {background-color:red; left:490px; top:0px;}
+}
+
+
+.aone {
+  width: 20px;
+  height: 20px;
+  background-color: red;
+  position:absolute;
+  animation-name: aone;
+  animation-duration: 4s;
+  animation-iteration-count: infinite;
+  border-radius: 50%;
+  box-shadow: 0 3px 4px rgba(0,0,0,0.15);
+  text-align: center;
+}
+
+
+@keyframes aone {
+  0%   {background-color:red;left: 560px;  top:0px;}
+  25%  {background-color:yellow;left: 560px;  top:00px;}
+  50%  {background-color:blue;left: 560px;  top:700px;}
+  75%  {background-color:green;left: 560px;  top:700px;}
+  100% {background-color:red;left: 560px; top:0px;}
+}
+.atwo {
+  width: 20px;
+  height: 20px;
+  background-color: red;
+  position: absolute;
+  animation-name: atwo;
+  animation-duration: 5s;
+  animation-iteration-count: infinite;
+  border-radius: 50%;
+  box-shadow: 0 3px 4px rgba(0,0,0,0.15);
+  text-align: center;
+}
+
+
+@keyframes atwo {
+  0%   {background-color:red; left:630px; top:00px;}
+  25%  {background-color:yellow; left:630px; top:00px;}
+  50%  {background-color:blue; left:630px; top:700px;}
+  75%  {background-color:green; left:630px; top:700px;}
+  100% {background-color:red; left:630px; top:0px;}
+}
+.athree {
+  width: 20px;
+  height: 20px;
+  background-color: red;
+  position: absolute;
+  animation-name: athree;
+  animation-duration: 6s;
+  animation-iteration-count: infinite;
+  border-radius: 50%;
+  text-align: center;
+  box-shadow: 0 3px 4px rgba(0,0,0,0.15);
+  
+}
+
+
+@keyframes athree {
+  0%   {background-color:red; left:700px; top:00px;}
+  25%  {background-color:yellow; left:700px; top:00px;}
+  50%  {background-color:blue; left:700px; top:700px;}
+  75%  {background-color:green; left:700px; top:700px;}
+  100% {background-color:red; left:700px; top:0px;}
+}
+.afour {
+  width: 20px;
+  height: 20px;
+  background-color: red;
+  position: absolute;
+  animation-name: afour;
+  animation-duration: 7s;
+  animation-iteration-count: infinite;
+  border-radius: 50%;
+  box-shadow: 0 3px 4px rgba(0,0,0,0.15);
+  text-align: center;
+}
+
+
+@keyframes afour {
+  0%   {background-color:red; left:770px; top:00px;}
+  25%  {background-color:yellow; left:770px; top:00px;}
+  50%  {background-color:blue; left:770px; top:700px;}
+  75%  {background-color:green; left:770px; top:700px;}
+  100% {background-color:red; left:770px; top:0px;}
+}
+.afive {
+  width: 20px;
+  height: 20px;
+  background-color: red;
+  position: absolute;
+  animation-name: afive;
+  animation-duration: 4s;
+  animation-iteration-count: infinite;
+  border-radius: 50%;
+  box-shadow: 0 3px 4px rgba(0,0,0,0.15);
+  text-align: center;
+}
+
+
+@keyframes afive {
+  0%   {background-color:red; left:840px; top:00px;}
+  25%  {background-color:yellow; left:840px; top:00px;}
+  50%  {background-color:blue; left:840px; top:700px;}
+  75%  {background-color:green; left:840px; top:700px;}
+  100% {background-color:red; left:840px; top:0px;}
+}
+.asix {
+  width: 20px;
+  height: 20px;
+  background-color: red;
+  position: absolute;
+  animation-name: asix;
+  animation-duration: 7s;
+  animation-iteration-count: infinite;
+  border-radius: 50%;
+  box-shadow: 0 3px 4px rgba(0,0,0,0.15);
+  text-align: center;
+}
+
+
+@keyframes asix {
+  0%   {background-color:red; left:910px; top:00px;}
+  25%  {background-color:yellow; left:910px; top:00px;}
+  50%  {background-color:blue; left:910px; top:700px;}
+  75%  {background-color:green; left:910px; top:700px;}
+  100% {background-color:red; left:910px; top:0px;}
+}
+.aseven {
+  width: 20px;
+  height: 20px;
+  background-color: red;
+  position: absolute;
+  animation-name: aseven;
+  animation-duration: 5s;
+  animation-iteration-count: infinite;
+  border-radius: 50%;
+  box-shadow: 0 3px 4px rgba(0,0,0,0.15);
+  text-align: center;
+}
+
+
+@keyframes aseven {
+  0%   {background-color:red; left:980px; top:00px;}
+  25%  {background-color:yellow; left:980px; top:00px;}
+  50%  {background-color:blue; left:980px; top:700px;}
+  75%  {background-color:green; left:980px; top:700px;}
+  100% {background-color:red; left:980px; top:0px;}
+}
+.aeight {
+  width: 20px;
+  height: 20px;
+  background-color: red;
+  position: absolute;
+  animation-name: aeight;
+  animation-duration: 6s;
+  animation-iteration-count: infinite;
+  border-radius: 50%;
+  box-shadow: 0 3px 4px rgba(0,0,0,0.15);
+  text-align: center;
+}
+
+
+@keyframes aeight {
+  0%   {background-color:red; left:1050px; top:00px;}
+  25%  {background-color:yellow; left:1050px; top:00px;}
+  50%  {background-color:blue; left:1050px; top:700px;}
+  75%  {background-color:green; left:1050px; top:700px;}
+  100% {background-color:red; left:1050px; top:0px;}
+}
+.bone {
+  width: 20px;
+  height: 20px;
+  background-color: red;
+  position:absolute;
+  animation-name: bone;
+  animation-duration: 4s;
+  animation-iteration-count: infinite;
+  border-radius: 50%;
+  box-shadow: 0 3px 4px rgba(0,0,0,0.15);
+  text-align: center;
+}
+
+
+@keyframes bone {
+  0%   {background-color:red;left: 1120px;  top:0px;}
+  25%  {background-color:yellow;left: 1120px;  top:00px;}
+  50%  {background-color:blue;left: 1120px;  top:700px;}
+  75%  {background-color:green;left: 1120px;  top:700px;}
+  100% {background-color:red;left: 1120px; top:0px;}
+}
+.btwo {
+  width: 20px;
+  height: 20px;
+  background-color: red;
+  position: absolute;
+  animation-name: btwo;
+  animation-duration: 5s;
+  animation-iteration-count: infinite;
+  border-radius: 50%;
+  box-shadow: 0 3px 4px rgba(0,0,0,0.15);
+  text-align: center;
+}
+
+
+@keyframes btwo {
+  0%   {background-color:red; left:1190px; top:00px;}
+  25%  {background-color:yellow; left:1190px; top:00px;}
+  50%  {background-color:blue; left:1190px; top:700px;}
+  75%  {background-color:green; left:1190px; top:700px;}
+  100% {background-color:red; left:1190px; top:0px;}
+}
+.bthree {
+  width: 20px;
+  height: 20px;
+  background-color: red;
+  position: absolute;
+  animation-name: bthree;
+  animation-duration: 6s;
+  animation-iteration-count: infinite;
+  border-radius: 50%;
+  text-align: center;
+  box-shadow: 0 3px 4px rgba(0,0,0,0.15);
+
+}
+
+
+@keyframes bthree {
+  0%   {background-color:red; left:1260px; top:00px;}
+  25%  {background-color:yellow; left:1260px; top:00px;}
+  50%  {background-color:blue; left:1260px; top:700px;}
+  75%  {background-color:green; left:1260px; top:700px;}
+  100% {background-color:red; left:1260px; top:0px;}
+}
+.bfour {
+  width: 20px;
+  height: 20px;
+  background-color: red;
+  position: absolute;
+  animation-name: bfour;
+  animation-duration: 7s;
+  animation-iteration-count: infinite;
+  border-radius: 50%;
+  box-shadow: 0 3px 4px rgba(0,0,0,0.15);
+  text-align: center;
+
+}
+
+
+@keyframes bfour {
+  0%   {background-color:red; left:1330px; top:00px;}
+  25%  {background-color:yellow; left:1330px; top:00px;}
+  50%  {background-color:blue; left:1330px; top:700px;}
+  75%  {background-color:green; left:1330px; top:700px;}
+  100% {background-color:red; left:1330px; top:0px;}
+}
+
+/*---*/
+body{
+  background: linear-gradient(90deg,#FFFD5A,#FFA200)
+}
+
+/*.head{
+width: 70%;
+height: 40%;
+background: transparent;
+padding-top: 30px;
+padding-bottom: 30px; 
+margin-top: 10%;
+border-radius:2%; 
+font-size: 50px;
+color: #EFDFB9;
+box-shadow: 0 10px 10px rgba(0,0,0,0.15);
+}
+/*center icon*/
+.menu{
+  background: transparent;
+  position: relative;
+  width:200px;
+  height:200px;
+  align-items: center;
+  justify-content: center;
+  display: flex;
+  margin-left: 40%;
+  margin-top: 200px;
+}
+.menu li{
+  position: absolute;
+  list-style: none;
+  transition: 1.0s;
+  transition-delay: calc(0.1s *var(--i));
+  transform-origin: 100px;
+  left: 0;
+  transform: rotate(0deg) translateX(80px);
+}
+.menu.active li{
+	transform: rotate(calc(360deg / 8*var(--i)));
+}
+.menu li a 
+{
+	width: 40px;
+	height: 40px;
+	background: #fff;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	border-radius: 50%;
+	box-shadow: 0 3px 4px rgba(0,0,0,0.15);
+	transform: rotate(calc(360deg / -8*var(--i)));
+	color: black;
+	transition: 0.5s;
+
+}
+.menu li a:hover
+{
+	background: red;
+	color: #fff;
+}
+
+.toggle{
+  position: absolute;
+  width: 60px;
+  height: 60px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  z-index: 10000;
+  cursor: pointer;
+  font-size: 30px;
+  background: white;
+  border-radius: 50%;
+  transition: 1.05s;
+  box-shadow: 0 3px 4px rgba(0,0,0,0.15);
+}
+.menu.active .toggle
+{
+  transform: rotate(315deg);
+}
+/*-------------------------------------------------------------------*/
+.log{
+	background: white;
+	
+}
