@@ -1,0 +1,159 @@
+.box{
+	background: blur;
+	position: absolute;
+	display: block;
+	padding: 20px;
+	top: 20%;
+	left: 20%;
+	border-color: white;
+	
+
+}
+input{
+	font-size: 15px;
+	text-align: center;
+	padding: 17px;
+	border: none;
+	box-shadow: inset 5px 5px 5px white,
+	            inset 5px 5px 12px ;
+}
+input[ type="submit"]
+{
+	
+}
+button{
+
+	font-size: 15px;
+	text-align: center;
+	padding: 17px;
+}
+label{
+	color: white;
+	font-size: 
+
+}
+body{
+	background-image: url(edit.jpg);
+	background-size: cover;
+	background-repeat: no-repeat;
+	
+
+}
+a.g:visited{
+	color: white;
+	text-decoration: none;
+
+}
+a.g:link{
+	color: rgb(210,67,28);
+	text-decoration: none;
+}
+
+a.tw:visited{
+	color: white;
+	text-decoration: none;
+
+}
+a.tw:link{
+	color:rgb(40,199,236);
+	text-decoration: none;
+}
+a.fb:visited{
+	color: white;
+	text-decoration: none;
+
+}
+a.fb:link{
+	color: red;
+	text-decoration: none;
+}
+
+
+
+.google{
+	/*background:rgb(200,53,38);*/
+	border-radius: 30%;
+	text-align: center;
+	background: transparent;
+	font-size: 25px;
+
+	
+	
+
+}
+.twitter{
+	/*background:rgb(55,200,245);*/
+	border-radius: 25%;
+	text-align: center;
+	font-size: 25px;
+	background: transparent;
+
+
+}
+.facebook{
+	/*background:blue;*/
+	border-radius: 25%;
+	text-align: center;
+	font-size: 25px;
+	background: transparent;
+}
+h1{
+	color: rgb(230,230,230);
+	text-shadow: 2px 2px black;
+}
+.log{
+	background:  blur;
+	position: absolute;
+	display: block;
+	padding-left: 10%;
+	padding-right: 10%;
+	padding-top: 5%;
+	padding-bottom: 4%;
+    left: 40%;
+	top: 20%;
+	
+}
+.fa {
+  padding: 20px;
+  font-size: 30px;
+  width: 50px;
+  text-align: center;
+  text-decoration: none;
+  margin: 5px 2px;
+}
+
+.fa:hover {
+    opacity: 0.7;
+}
+
+.fa-facebook {
+  background: #3B5998;
+  color: white;
+}
+.fa-youtube {
+  background: #bb0000;
+  color: white;
+}
+
+.fa-twitter {
+  background: #55ACEE;
+  color: white;
+}
+
+.fa-google {
+  background: #dd4b39;
+  color: white;
+}
+a.acc:link{
+	text-decoration: none;
+	color: white ;
+}
+a.acc:visited{
+	text-decoration: none;
+	color: #A52A2A;
+}
+.acc{
+	background: white;
+	padding: 12px;
+	border-radius:8px;
+}

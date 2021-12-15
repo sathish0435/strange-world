@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>social</title>
+<link rel="stylesheet" type="text/css" href="rp.css">
+</head>
+<body>
+
+
+
+<div class="one"></div>
+<div class="two"></div>
+<div class="three"></div>
+<div class="four"></div>
+<!--
+<div class="log" >
+  <div class="name">
+  <input type="type" name="name" placeholder="USERNAME" required></div>
+  <br>
+  <div class="password">
+  <input type="password" name="password" placeholder="PASSWORD" required></div>
+  <br>
+  <div class="sub">
+  <input type="submit" name="submit"></div>
+  
+</div>
+<div class="sign">
+  <center><h3>SIGN IN</h3></center>
+</div>
+<div class="img">
+  <center><h3>LOGIN</h3></center>
+</div>-->
+<div class="menu">
+  <div class="toggle"><ion-icon name="apps-outline"></ion-icon></div>
+  <li style="--i:0;">
+    <a href="https://accounts.google.com"><ion-icon name="logo-google"></ion-icon></a>
+  </li>
+  <li style="--i:1;">
+    <a href="https://www.facebook.com"><ion-icon name="logo-facebook"></ion-icon></a>
+  </li>
+  <li style="--i:2;">
+    <a href="https://www.instagram.com"><ion-icon name="logo-instagram"></ion-icon></a>
+  </li>
+  <li style="--i:3;">
+    <a href="https://www.twitter.com"><ion-icon name="logo-twitter"></ion-icon></a>
+  </li>
+  <li style="--i:4;">
+    <a href="https://www.linkedin.com"><ion-icon name="logo-linkedin"></ion-icon></a>
+  </li>
+  <li style="--i:5;">
+    <a href="https://www.youtube.com"><ion-icon name="logo-youtube"></ion-icon></a>
+  </li>
+  <li style="--i:6;">
+    <a href="#"><ion-icon name="logo-microsoft"></ion-icon></a>
+  </li>
+  <li style="--i:7;">
+    <a href="#"><ion-icon name="logo-yahoo"></ion-icon></a>
+  </li>
+</div>
+<!--STYLE FOR LOGIN PAGE -->
+
+<style>
+  .log{
+    background: #fff;
+    padding: 20px;
+    align-items: center;
+    position: absolute;
+    margin-left: 950px;
+    margin-top: 300px;
+    box-shadow: 0 8px 10px rgba(0,0,0,0.15);
+  }
+  .sign{
+    background: #fff;
+    padding: 1px;
+    align-items: center;
+    position: absolute;
+    
+    margin-left: 950px;
+    margin-top: 1px;
+    box-shadow: 0 8px 10px rgba(0,0,0,0.15);
+    width: 235px;
+
+  }
+
+  .img{
+    background: #fff;
+    padding: 1px;
+    align-items: center;
+    position: relative;
+    animation-name: login;
+    animation-duration: 6s;
+    animation-iteration-count: infinite;
+    margin-left: 950px;
+    margin-top: 100px;
+    box-shadow: 0 8px 10px rgba(0,0,0,0.15);
+    width: 235px;
+  }
+  @keyframes login {
+  0%   {background-color:red; left:0px; top:00px;}
+  25%  {background-color:yellow; left:0px; top:00px;}
+  50%  {background-color:white; left:0px; top:140px;}
+  75%  {background-color:green; left:0px; top:140px;}
+  100% {background-color:red; left:0px; top:0px;}
+}
+  .name{
+    padding: 10px;
+    text-align: center;
+    align-items: center;
+
+  }
+  .password{
+    padding-top:10px;
+    padding-bottom: 20px;
+    text-align: center;
+  }
+  .sub{
+    text-align: center;
+  }
+
+</style>
+
+<script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+<script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+<script >
+  let toggle = document.querySelector('.toggle');
+  let menu = document.querySelector('.menu');
+  toggle.onclick = function() {
+    menu.classList.toggle('active')
+  }
+</script>
+
+</body>
+</html>
+
+
