@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>round</title>
+<link rel="stylesheet" type="text/css" href="rp.css">
+<link rel="preload" type="image/gif" href="loader.gif">
+<link rel="icon" type="image/png" href="treee.png">
+</head>
+<body>
+
+
+
+<div class="one">w</div>
+<div class="two">e</div>
+<div class="three">l</div>
+<div class="four">l</div>
+<div class="five">c</div>
+<div class="six">o</div>
+<div class="seven">m</div>
+<div class="eight">e</div>
+
+<div class="aone">t</div>
+<div class="atwo">o</div>
+<div class="athree">o</div>
+<div class="afour">u</div>
+<div class="afive">r</div>
+<div class="asix">w</div>
+<div class="aseven">e</div>
+<div class="aeight">b</div>
+<div class="bone">p</div>
+<div class="btwo">a</div>
+<div class="bthree">g</div>
+<div class="bfour">e</div>
+
+<style>
+	.wrapper {
+  height: 100vh;
+  /*This part is important for centering*/
+  
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+
+}
+
+.typing-demo {
+  width: 19ch;
+  animation: typing 2s steps(22), blink .5s step-end infinite alternate;
+  white-space: nowrap;
+  overflow: hidden;
+  border-right: 3px solid;
+  font-family: monospace;
+  font-size: 9.8em;
+  color: #fff;
+  position: absolute;
+  text-shadow: 2px 2px 8px #000000;
+
+}
+
+@keyframes typing {
+  from {
+    width: 0
+  }
+}
+    
+@keyframes blink {
+  50% 
+    border-color: transparent
+  }
+}
+</style>
+
+
+
+<div class="menu">
+  <div class="toggle"><ion-icon name="add-outline"></ion-icon></div>
+  <li style="--i:0;">
+    <a href="front page.html"><ion-icon name="settings-outline"></ion-icon></a>
+  </li>
+  <li style="--i:1;">
+    <a href="tel:8148014860" ><ion-icon name="call-outline"></ion-icon></a>
+  </li>
+  <li style="--i:2;">
+    <a href="page.html"><ion-icon name="home-outline"></ion-icon></a>
+  </li>
+  <li style="--i:3;">
+    <a href="#"><ion-icon name="help-circle-outline"></ion-icon></a>
+  </li>
+  <li style="--i:4;">
+    <a href="mailto:sathishindarkcs@gmail.com"><ion-icon name="mail-unread-outline"></ion-icon></a>
+  </li>
+  <li style="--i:5;">
+    <a href="social.html"><ion-icon name="apps-outline"></ion-icon></a>
+  </li>
+   <li style="--i:6;">
+    <a href="#"><ion-icon name="folder-open-outline"></ion-icon></a>
+
+  </li> 
+  <li style="--i:7;">
+    <a href="https://www.google.com"><ion-icon name="globe-outline"></ion-icon></a>
+  </li>
+
+</div>
+<div class="wrapper">
+    <div class="typing-demo">
+      STRANGE IN NATURUAL 
+    </div>
+</div>
+
+<script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+<script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+<script >
+  let toggle = document.querySelector('.toggle');
+  let menu = document.querySelector('.menu');
+  toggle.onclick = function() {
+    menu.classList.toggle('active')
+  }
+</script>
+
+</body>
+</html>
+
+
